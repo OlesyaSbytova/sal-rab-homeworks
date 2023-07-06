@@ -8,9 +8,9 @@ function calcShipping(sum, min, shipping) {
     let shippingSum;
 
     if(productsSum == 0 || productsSum >= freeShippingMinSum) {
-        console.log(shippingSum = 0);
+        (shippingSum = 0);
     }else {
-        console.log(shippingSum = shippingPrice);
+        (shippingSum = shippingPrice);
     }
     
     console.log(shippingSum);
@@ -30,9 +30,9 @@ function calcDiscount(sum, min, discount) {
     let discountSum;
     
     if (productsSum >= discountMinSum) {
-        console.log(discountSum = discountPart / 100 * productsSum);
+        (discountSum = discountPart / 100 * productsSum);
     }else {
-        console.log(discountSum = 0);
+        (discountSum = 0);
     }
     
     console.log(discountSum);
